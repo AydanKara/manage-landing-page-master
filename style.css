@@ -67,14 +67,14 @@ p {
 
 .btn {
     display: inline-block;
-    padding: 12px 20px;
+    padding: 14px;
     border-radius: 22px;
-    font-size: 16px;
+    font-size: 14px;
     color: var(--Very-Light-Gray);
     background-color: var(--Bright-Red);
     border: none;
     cursor: pointer;
-    width: 170px;
+    width: 150px;
     transition: 0.3s ease-in-out all;
 }
 
@@ -86,7 +86,7 @@ p {
 
 /*! header start */
 header {
-    
+    margin: 60px 0;
 }
 
 .header-row {
@@ -99,6 +99,9 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+.header-wrapper .logo {
+    display: flex;
+}
 
 .header-nav .menu-list {
     display: flex;
@@ -107,7 +110,7 @@ header {
 }
 
 .menu-link {
-    font-size: 16px;
+    font-size: 14px;
     color: var(--Dark-Blue);
 }
 
@@ -120,3 +123,43 @@ header {
 }
 
 /*! header end */
+
+/*! main start */
+/* section intro start */
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.intro-wrapper {
+    display: flex;
+}
+
+.intro-title {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.intro-title h1 {
+    font-size: 46px;
+    max-width: 395px;
+    color: var(--Dark-Blue);
+}
+
+.intro-title p {
+    width: 340px;
+    line-height: 25px;
+    color: var(--Dark-Grayish-Blue);
+}
+
+.intro-image {
+    width: 50%;
+}
+
+.intro-image img {
+    
+}
+
+/* section next-generation end */
