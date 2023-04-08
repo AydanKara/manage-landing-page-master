@@ -184,4 +184,14 @@ header {
 .about-right {
     width: 50%;
 }
+.content {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+.content-info {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
 /* section about end */
