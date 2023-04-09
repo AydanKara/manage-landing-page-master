@@ -26,6 +26,9 @@
 
 body {
     overflow-x: hidden;
+    background-image: url(./images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-position: 775px -166px;
 }
 
 ul,
@@ -87,7 +90,8 @@ p {
 
 /*! header start */
 header {
-    margin: 60px 0;
+    margin-top: 60px;
+    margin-bottom: 100px;
 }
 
 .header-row {
@@ -143,11 +147,12 @@ header {
     display: flex;
     flex-direction: column;
     gap: 40px;
+    padding-top: 70px;
 }
 
 .intro-title h1 {
-    font-size: 46px;
-    max-width: 395px;
+    font-size: 49px;
+    max-width: 430px;
     color: var(--Dark-Blue);
 }
 
@@ -164,6 +169,11 @@ header {
 /* section intro end */
 
 /* section about start */
+.about {
+    margin-top: 100px;
+
+}
+
 .about-wrapper {
     display: flex;
     justify-content: space-between;
@@ -222,6 +232,18 @@ header {
 .testimonials {
     width: 100%;
     margin-bottom: 175px;
+    margin-top: 105px;
+    position: relative;
+}
+
+.testimonials .bg-img {
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -300px;
+    left: -400px;
 }
 
 .testimonials-container {
@@ -325,6 +347,7 @@ header {
     align-items: center;
     gap: 12px;
 }
+
 .social-media-links i {
     font-size: 20px;
     color: var(--Very-Light-Gray);
@@ -364,6 +387,24 @@ header {
     justify-content: center;
     align-items: end;
     gap: 45px;
+}
+.footer-wrapper .right .form-box form {
+    display: flex;
+    gap: 10px;
+}
+
+input[type=email] {
+    width: 195px;
+    padding: 12px;
+    border-radius: 22px;
+    font-size: 13px;
+    border: none;
+}
+input[type=email]:focus {
+    outline-color: var(--Bright-Red);
+}
+.go {
+    width: 65px;
 }
 .footer-wrapper .right p {
     font-size: 12px;
