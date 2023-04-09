@@ -212,6 +212,7 @@ header {
 /* section testimonials start */
 .testimonials {
     width: 100%;
+    margin-bottom: 175px;
 }
 .testimonials-container {
     display: flex;
@@ -262,7 +263,7 @@ header {
     width: 100%;
 }
 .simplify-wrapper {
-    padding: 70px 0;
+    padding: 66px 0;
     display: flex;
     justify-content: space-between;
 }
