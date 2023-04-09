@@ -323,11 +323,16 @@ header {
 .social-media-links {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 12px;
+}
+.social-media-links i {
+    font-size: 20px;
+    color: var(--Very-Light-Gray);
+    transition: .3s ease-in-out all;
 }
 
-.social-media-links a:hover {
-    
+.social-media-links i:hover {
+    color: var(--Bright-Red);
 }
 
 .footer-wrapper .center {
@@ -349,7 +354,7 @@ header {
 }
 
 .footer-wrapper .center .menu-list a:hover {
-    color: var(--Dark-Grayish-Blue);
+    color: var(--Bright-Red);
 }
 
 .footer-wrapper .right {
@@ -358,7 +363,11 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: end;
-    gap: 25px;
+    gap: 45px;
+}
+.footer-wrapper .right p {
+    font-size: 12px;
+    color: var(--Dark-Grayish-Blue);
 }
 
 /*! footer end */
