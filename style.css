@@ -280,7 +280,7 @@ header {
     padding: 30px 0px;
 }
 .owl-item {
-    width: 530px;
+    width: 530px !important;
 }
 .owl-nav, 
 .owl-dots {
