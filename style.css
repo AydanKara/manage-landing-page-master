@@ -265,6 +265,7 @@ header {
 }
 
 .testimonials-wrapper {
+    height: 300px;
     display: flex;
     margin-top: 80px;
     margin-bottom: 45px;
@@ -281,6 +282,9 @@ header {
 }
 .owl-item {
     width: 515px !important;
+}
+.cloned {
+    display: flex;
 }
 .owl-nav, 
 .owl-dots {
