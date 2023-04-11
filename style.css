@@ -276,20 +276,21 @@ header {
     font-size: 36px;
     color: var(--Dark-Blue);
 }
+
 .owl-stage {
     height: 300px;
     padding: 30px 0px;
 }
+
 .owl-item {
     width: 515px !important;
 }
-.cloned {
-    display: flex;
-}
-.owl-nav, 
+
+.owl-nav,
 .owl-dots {
     display: none;
 }
+
 .testimonials-item {
     position: relative;
     height: 220px;
@@ -300,23 +301,25 @@ header {
     align-items: center;
     padding: 65px 32px 30px 32px;
     background-color: var(--Very-Light-Gray);
-    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.4);
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.4);
 }
+
 .testimonials-item .img-area {
     width: 70px;
     position: absolute;
     top: -30px;
     left: 0;
-	bottom: 0;
-	margin: 0 auto;
-	right: 0;
-	z-index: 1;
-	border-radius: 50%;
+    bottom: 0;
+    margin: 0 auto;
+    right: 0;
+    z-index: 1;
+    border-radius: 50%;
 }
+
 .testimonials-item img {
     width: 100%;
-	height: auto;
-	border-radius: 50%;
+    height: auto;
+    border-radius: 50%;
 }
 
 .testimonials-item span {
