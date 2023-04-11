@@ -9,7 +9,7 @@ $(".testmonial_slider_area").owlCarousel({
     dots: true,
     responsive: {
         320: {
-            items: 1
+            items: 2
         },
         767: {
             items: 2
@@ -18,7 +18,7 @@ $(".testmonial_slider_area").owlCarousel({
             items: 2
         },
         1000: {
-            items: 3
+            items: 2
         }
     }
 
